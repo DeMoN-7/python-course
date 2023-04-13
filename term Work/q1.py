@@ -1,0 +1,16 @@
+a=23
+c="aaa"
+d=23.6
+e=True
+f=100+3j
+g=[1,2,3,4]
+h={21:22,32:44}
+i=(11,23,"we")
+print(type(a))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+print(type(h))
+print(type(i))
