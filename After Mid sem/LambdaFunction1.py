@@ -14,3 +14,4 @@ demon("ayush")
 z=lambda *y:sum(y)
 print(z(2,3,4,5))
 
+
