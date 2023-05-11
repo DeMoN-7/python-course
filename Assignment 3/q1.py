@@ -3,15 +3,18 @@
 # Expected Output :
 # No. of Upper case characters : 3
 # No. of Lower case Characters : 12
-
+def low(s):
+    z=0
+    for i in s:
+        if (i.islower()):
+            z+=1
+    return z
+def up(s):
+    z=0
+    for i in s:
+        if (i.isupper()):
+            z+=1
+    return z
 a=input("Enter the string: ")
-low=0
-up=0
-for i in a:
-    
-    if (i.isupper()):
-        up+=1
-    elif (i.islower()):
-        low+=1
-print("low: ",low)
-print("up: ",up)   
+print("low: ",low(a))
+print("up: ",up(a))   
