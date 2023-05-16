@@ -6,12 +6,19 @@
 # The next perfect number is 28 = 1 + 2 + 4 + 7 + 14.
 #  This is followed by the perfect numbers 496 and 8128. 
 
+
+
+def perfect(a):
+    x=0
+    for i in range(1,a+1):
+        if(a%i==0):
+            x+=i
+    if (x/2==a):
+        return True
+    else:
+        return False
 a=int(input("Enter the number: "))
-x=0
-for i in range(1,a+1):
-    if(a%i==0):
-        x+=i
-if (x/2==a):
-    print("Perfect number")
+if(perfect(a)):
+    print("Perfect")
 else:
-    print("Not perfect")
+    print("Not Perfect")
