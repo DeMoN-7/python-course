@@ -7,7 +7,6 @@
 #  This is followed by the perfect numbers 496 and 8128. 
 
 
-
 def perfect(a):
     x=0
     for i in range(1,a+1):
