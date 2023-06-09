@@ -8,7 +8,7 @@
 # print("ifgj")
 
 
-# ..............Rasing multiple error..........
+# ..............Rasing.............. multiple.............. error..........
 
 try:
     n=int(input("Enter the index: "))
